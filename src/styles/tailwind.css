@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Background Colors */
+    --color-background: #0a0a0a; /* black */
+    --color-foreground: #ffffff; /* white */
+    --color-surface: #1e1e1e; /* gray-900 */
+    --color-surface-foreground: #ffffff; /* white */
+    
+    /* Border & Input */
+    --color-border: rgba(255, 255, 255, 0.1); /* white with opacity */
+    --color-input: rgba(255, 255, 255, 0.1); /* white with opacity */
+    --color-ring: #00d4ff; /* cyan-400 */
+    
+    /* Card & Popover */
+    --color-card: #1e1e1e; /* gray-900 */
+    --color-card-foreground: #ffffff; /* white */
+    --color-popover: #1e1e1e; /* gray-900 */
+    --color-popover-foreground: #ffffff; /* white */
+    
+    /* Muted */
+    --color-muted: #2a2a2e; /* gray-800 */
+    --color-muted-foreground: #a0a0a0; /* gray-400 */
+    
+    /* Primary - Core brand authority */
+    --color-primary: #0066cc; /* blue-600 */
+    --color-primary-foreground: #ffffff; /* white */
+    
+    /* Secondary - Interactive elements */
+    --color-secondary: #00d4ff; /* cyan-400 */
+    --color-secondary-foreground: #0a0a0a; /* black */
+    
+    /* Accent - Sophisticated depth */
+    --color-accent: #1a1a2e; /* indigo-950 */
+    --color-accent-foreground: #ffffff; /* white */
+    
+    /* Success */
+    --color-success: #00cc66; /* green-500 */
+    --color-success-foreground: #ffffff; /* white */
+    
+    /* Warning */
+    --color-warning: #ff9900; /* orange-500 */
+    --color-warning-foreground: #ffffff; /* white */
+    
+    /* Error/Destructive */
+    --color-error: #ff4444; /* red-500 */
+    --color-error-foreground: #ffffff; /* white */
+    --color-destructive: #ff4444; /* red-500 */
+    --color-destructive-foreground: #ffffff; /* white */
+    
+    /* Additional Brand Colors */
+    --color-brand-gradient-start: #0a0a0a; /* black */
+    --color-brand-gradient-mid: #1a1a2e; /* indigo-950 */
+    --color-brand-gradient-end: #2a2a4e; /* indigo-900 */
+    
+    /* Typography */
+    --font-headline: 'Inter', sans-serif;
+    --font-body: 'Inter', sans-serif;
+    --font-accent: 'JetBrains Mono', monospace;
+    
+    /* Spacing - Golden Ratio System */
+    --spacing-xs: 0.5rem; /* 8px */
+    --spacing-sm: 0.75rem; /* 12px */
+    --spacing-md: 1.25rem; /* 20px */
+    --spacing-lg: 2rem; /* 32px */
+    --spacing-xl: 3.25rem; /* 52px */
+    
+    /* Border Radius */
+    --radius-sm: 0.25rem; /* 4px */
+    --radius-md: 0.5rem; /* 8px */
+    --radius-lg: 0.75rem; /* 12px */
+    --radius-xl: 1rem; /* 16px */
+  }
+  
+  * {
+    @apply border-border;
+  }
+  
+  body {
+    @apply bg-background text-foreground font-body;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-headline;
+  }
+}
+
+@layer utilities {
+  /* Gradient Animations */
+  @keyframes gradient-shift {
+    0%, 100% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+  }
+  
+  .animate-gradient {
+    background-size: 200% 200%;
+    animation: gradient-shift 8s ease infinite;
+  }
+  
+  /* Glow Effects */
+  .glow-blue {
+    box-shadow: 0 0 20px rgba(0, 212, 255, 0.3);
+  }
+  
+  .glow-blue-strong {
+    box-shadow: 0 20px 40px rgba(0, 212, 255, 0.3);
+  }
+  
+  /* Text Gradients */
+  .text-gradient-primary {
+    @apply bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent;
+  }
+  
+  /* Smooth Transitions */
+  .transition-smooth {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .transition-smooth-long {
+    transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  /* Perspective Effects */
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+  
+  /* Custom Scrollbar */
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-track {
+    @apply bg-surface;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    @apply bg-muted rounded-lg;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    @apply bg-secondary;
+  }
+}
