@@ -39,9 +39,9 @@ const CustomSolutionsInteractive: React.FC = () => {
   },
   {
     icon: 'BoltIcon',
-    title: 'Low-Code Platform Solutions',
+    title: 'Custom Platform Solutions',
     description:
-    'Accelerate your digital transformation with enterprise-grade low-code platforms that empower both developers and business users to create sophisticated applications in a fraction of traditional development time.',
+    'Accelerate your digital transformation with enterprise-grade technology solutions—web, mobile, USSD, integrations, and more. Empower your teams to innovate and deliver sophisticated applications faster than ever.',
     features: [
     'Visual development environment with drag-and-drop',
     'Pre-built components and templates library',
@@ -388,14 +388,14 @@ const CustomSolutionsInteractive: React.FC = () => {
   {
     id: '2',
     quote:
-    'The low-code platform they implemented allowed our business teams to create applications independently, reducing our development backlog by 70% and accelerating time-to-market.',
+    'The platform our technology team implemented allowed our business teams to create applications independently, reducing our development backlog by 70% and accelerating time-to-market.',
     author: 'Michael Chen',
     role: 'VP of Digital Innovation',
     company: 'RetailMax Corporation',
     image: "https://img.rocket.new/generatedImages/rocket_gen_img_1b4891e07-1763295537017.png",
     imageAlt:
     'Asian businessman in gray suit with glasses looking professional in corporate office environment',
-    solution: 'Low-Code Platform'
+    solution: 'Custom Platform'
   },
   {
     id: '3',
@@ -415,7 +415,7 @@ const CustomSolutionsInteractive: React.FC = () => {
     <>
       <SolutionHero
         title="Custom Solutions for Every Challenge"
-        description="Transform your business with tailored software solutions built on cutting-edge low-code platforms. From custom development to legacy modernization, we deliver enterprise-grade applications that drive measurable results."
+        description="Transform your business with tailored software solutions built on cutting-edge technology. From custom development to legacy modernization, we deliver enterprise-grade applications that drive measurable results."
         stats={heroStats} />
 
 

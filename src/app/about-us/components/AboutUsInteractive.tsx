@@ -32,7 +32,7 @@ export default function AboutUsInteractive() {
   const heroData = {
     title: "Empowering Tomorrow\'s Vision Today",
     subtitle: "About HopeLogix",
-    description: "We are a team of innovators, strategists, and technologists dedicated to transforming complex business challenges into elegant, scalable solutions that drive sustainable growth."
+    description: "We are a team of innovators, strategists, and technologists dedicated to transforming complex business challenges into elegant, scalable solutions that drive sustainable growth. Our expertise spans web and mobile app development, USSD, systems integration, and digital transformation for businesses across industries."
   };
 
   // Story Data
@@ -40,8 +40,8 @@ export default function AboutUsInteractive() {
     title: "Our Story",
     content: [
     "Founded in 2018, HopeLogix emerged from a simple yet powerful vision: to bridge the gap between enterprise ambition and rapid digital transformation. Our founders, seasoned technology leaders with decades of combined experience, recognized that traditional software development was too slow, too expensive, and too rigid for the modern business landscape.",
-    "We pioneered a new approach—combining the speed and flexibility of low-code platforms with the sophistication and customization of traditional development. This hybrid methodology allows us to deliver enterprise-grade solutions in weeks, not months, while maintaining the quality and scalability that large organizations demand.",
-    "Today, we serve mid-to-enterprise companies across North America, helping them achieve competitive advantages through tailored software solutions. Our track record speaks for itself: 98% client satisfaction, 40% average reduction in time-to-market, and countless digital transformations that have redefined what's possible."],
+    "We pioneered a new approach—leveraging modern web, mobile, USSD, and integration technologies to deliver sophisticated, custom solutions at the speed businesses demand. Our methodology enables us to deliver enterprise-grade solutions in weeks, not months, while maintaining the quality and scalability that large organizations require.",
+    "Today, we serve mid-to-enterprise companies across North America, helping them achieve competitive advantages through tailored technology solutions. Our track record speaks for itself: 98% client satisfaction, 40% average reduction in time-to-market, and countless digital transformations that have redefined what's possible."],
 
     stats: [
     { value: "500+", label: "Projects Delivered" },
@@ -81,41 +81,42 @@ export default function AboutUsInteractive() {
   // Team Data
   const teamData: TeamMemberData[] = [
   {
-    name: "Sarah Mitchell",
+    name: "Jackson Ngabonziza",
     role: "Chief Executive Officer",
-    bio: "Visionary leader with 20+ years in enterprise technology. Former VP at Fortune 500 tech company, driving digital transformation initiatives.",
-    expertise: ["Digital Strategy", "Enterprise Architecture", "Business Transformation", "Executive Leadership", "M&A Integration"],
-    image: "https://img.rocket.new/generatedImages/rocket_gen_img_1ffde516e-1763293580273.png",
-    alt: "Professional woman with shoulder-length brown hair in navy blazer smiling confidently in modern office setting",
+    bio: "Visionary executive with a proven track record in leading technology organizations and driving digital transformation. Passionate about innovation, strategic growth, and building high-performing teams to deliver exceptional business results.",
+    expertise: ["Leadership", "Strategic Growth", "Digital Transformation", "Innovation", "Team Building"],
+    image: "https://img.rocket.new/generatedImages/rocket_gen_img_1ffde516e-1763293580273.png", // You may want to update this image URL
+    alt: "Professional portrait of Jackson Ngabonziza, CEO of HopeLogix",
     linkedin: "https://linkedin.com"
   },
   {
-    name: "Marcus Chen",
-    role: "Chief Technology Officer",
-    bio: "Technology innovator specializing in low-code platforms and cloud architecture. Published author and frequent conference speaker.",
-    expertise: ["Low-Code Development", "Cloud Architecture", "API Design", "DevOps", "Technical Innovation"],
-    image: "https://img.rocket.new/generatedImages/rocket_gen_img_1e8963640-1763296514949.png",
-    alt: "Asian man with glasses in white shirt working on laptop in bright modern workspace",
+    name: "Dan Rwiyamirira",
+    role: "Head of Business Development",
+    bio: "Accomplished business development leader with deep expertise in business analysis, economics, finance, and management. Skilled at identifying growth opportunities, forging strategic partnerships, and driving commercial success for technology organizations.",
+    expertise: ["Business Analysis", "Economics", "Finance", "Business Management", "Strategic Partnerships"],
+    image: "https://img.rocket.new/generatedImages/rocket_gen_img_1e8963640-1763296514949.png", // Update image if available
+    alt: "Professional portrait of Dan Rwiyamirira, Business Development Manager at HopeLogix",
     linkedin: "https://linkedin.com"
   },
   {
-    name: "Jennifer Rodriguez",
-    role: "VP of Client Success",
-    bio: "Client advocate with proven track record in building long-term partnerships. Expert in change management and digital adoption.",
-    expertise: ["Client Relations", "Change Management", "Training & Adoption", "Account Growth", "Customer Success"],
-    image: "https://img.rocket.new/generatedImages/rocket_gen_img_1c0f48e8d-1763295027844.png",
-    alt: "Hispanic woman with long dark hair in professional attire smiling warmly in corporate office environment",
+    name: "Mutamba Jacky",
+    role: "Head of Project Management",
+    bio: "PMP-certified project management expert with a Master’s in Project Management. Renowned for leading complex technology projects and delivering outstanding results through proven methodologies and leadership.",
+    expertise: ["PMP Certified", "Project Management", "Technology Projects", "Leadership", "Process Optimization"],
+    image: "https://img.rocket.new/generatedImages/rocket_gen_img_1c0f48e8d-1763295027844.png", // Update image if available
+    alt: "Professional portrait of Mutamba Jacky, Head of Project Management at HopeLogix",
     linkedin: "https://linkedin.com"
   },
   {
-    name: "David Thompson",
+    name: "Ibyimana Wilbrord",
     role: "Head of Engineering",
     bio: "Engineering leader passionate about building high-performing teams. Former principal engineer at leading SaaS companies.",
     expertise: ["Team Leadership", "Software Architecture", "Agile Methodologies", "Code Quality", "Technical Mentorship"],
     image: "https://images.unsplash.com/photo-1614598381266-2854851dbce6",
     alt: "Caucasian man with short beard in casual business attire working at standing desk with dual monitors",
     linkedin: "https://linkedin.com"
-  }];
+  }
+];
 
 
   // Timeline Data
@@ -126,7 +127,7 @@ export default function AboutUsInteractive() {
     {
       year: "2018",
       title: "Company Founded",
-      description: "HopeLogix established with a mission to revolutionize enterprise software development through innovative low-code solutions.",
+      description: "HopeLogix established with a mission to revolutionize enterprise software development through innovative technology solutions for web, mobile, USSD, and integrations.",
       icon: "RocketLaunchIcon"
     },
     {
@@ -138,7 +139,7 @@ export default function AboutUsInteractive() {
     {
       year: "2020",
       title: "Platform Innovation",
-      description: "Launched proprietary hybrid development framework combining low-code speed with custom code flexibility.",
+      description: "Launched proprietary development framework focused on rapid, high-quality delivery of web, mobile, and integrated business solutions.",
       icon: "CpuChipIcon"
     },
     {
@@ -150,7 +151,7 @@ export default function AboutUsInteractive() {
     {
       year: "2022",
       title: "Industry Recognition",
-      description: "Named 'Top Low-Code Solutions Provider' by Tech Innovation Awards. Achieved SOC 2 Type II certification.",
+      description: "Named 'Top Technology Solutions Provider' by Tech Innovation Awards. Achieved SOC 2 Type II certification.",
       icon: "TrophyIcon"
     },
     {
@@ -174,10 +175,10 @@ export default function AboutUsInteractive() {
     subtitle: "Industry Excellence",
     awards: [
     {
-      title: "Top Low-Code Solutions Provider",
+      title: "Top Technology Solutions Provider",
       organization: "Tech Innovation Awards",
       year: "2024",
-      description: "Recognized for excellence in delivering enterprise-grade low-code solutions with exceptional client outcomes.",
+      description: "Recognized for excellence in delivering enterprise-grade technology solutions with exceptional client outcomes.",
       icon: "TrophyIcon"
     },
     {
@@ -198,7 +199,7 @@ export default function AboutUsInteractive() {
       title: "Innovation in Software Development",
       organization: "National Technology Council",
       year: "2022",
-      description: "Recognized for pioneering hybrid development methodology combining low-code and custom development.",
+      description: "Recognized for pioneering advanced development methodologies and custom technology solutions.",
       icon: "LightBulbIcon"
     },
     {
@@ -228,56 +229,56 @@ export default function AboutUsInteractive() {
       issuer: "AICPA",
       logo: "https://img.rocket.new/generatedImages/rocket_gen_img_11a4b09b6-1764622317369.png",
       alt: "SOC 2 Type II compliance certification badge with blue shield and checkmark symbol",
-      verificationUrl: "https://example.com/verify"
+      // verificationUrl: "https://example.com/verify"
     },
     {
       name: "ISO 27001",
       issuer: "ISO",
       logo: "https://img.rocket.new/generatedImages/rocket_gen_img_1cc30d2d9-1764622317083.png",
       alt: "ISO 27001 information security management certification logo with globe and lock icon",
-      verificationUrl: "https://example.com/verify"
+      // verificationUrl: "https://example.com/verify"
     },
     {
       name: "AWS Partner",
       issuer: "Amazon Web Services",
       logo: "https://img.rocket.new/generatedImages/rocket_gen_img_167f7143a-1764622317329.png",
       alt: "AWS Advanced Consulting Partner badge with orange and white cloud logo",
-      verificationUrl: "https://example.com/verify"
+      // verificationUrl: "https://example.com/verify"
     },
     {
       name: "Microsoft Gold Partner",
       issuer: "Microsoft",
       logo: "https://img.rocket.new/generatedImages/rocket_gen_img_17e773a80-1764622317676.png",
       alt: "Microsoft Gold Partner certification emblem with four-color square logo",
-      verificationUrl: "https://example.com/verify"
+      // verificationUrl: "https://example.com/verify"
     },
     {
       name: "GDPR Compliant",
       issuer: "EU Commission",
       logo: "https://img.rocket.new/generatedImages/rocket_gen_img_18efe7105-1764622317364.png",
       alt: "GDPR compliance badge with EU stars and data protection shield symbol",
-      verificationUrl: "https://example.com/verify"
+      // verificationUrl: "https://example.com/verify"
     },
     {
       name: "PCI DSS",
       issuer: "PCI Security Standards",
       logo: "https://img.rocket.new/generatedImages/rocket_gen_img_1f412b470-1764622316255.png",
       alt: "PCI DSS payment card industry security certification logo with lock and card icons",
-      verificationUrl: "https://example.com/verify"
+      // verificationUrl: "https://example.com/verify"
     },
     {
       name: "HIPAA Compliant",
       issuer: "HHS",
       logo: "https://img.rocket.new/generatedImages/rocket_gen_img_1868ced8c-1764622320217.png",
       alt: "HIPAA healthcare compliance certification badge with medical cross and shield",
-      verificationUrl: "https://example.com/verify"
+      // verificationUrl: "https://example.com/verify"
     },
     {
       name: "Agile Certified",
       issuer: "Scrum Alliance",
       logo: "https://img.rocket.new/generatedImages/rocket_gen_img_17505e166-1764622317390.png",
       alt: "Certified Scrum Master badge with agile methodology circular arrows logo",
-      verificationUrl: "https://example.com/verify"
+      // verificationUrl: "https://example.com/verify"
     }]
 
   };
@@ -327,7 +328,7 @@ export default function AboutUsInteractive() {
   // CTA Data
   const ctaData = {
     title: "Ready to Transform Your Business?",
-    description: "Let\'s discuss how HopeLogix can help you achieve your digital transformation goals with our innovative low-code solutions.",
+    description: "Let's discuss how HopeLogix can help you achieve your digital transformation goals with our custom web, mobile, USSD, and integration solutions.",
     primaryCTA: {
       text: "Schedule Consultation",
       href: "/contact"

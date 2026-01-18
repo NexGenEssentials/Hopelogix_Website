@@ -5,7 +5,7 @@ import ContactFooter from './components/ContactFooter';
 
 export const metadata: Metadata = {
   title: 'Contact Us - HopeLogix',
-  description: 'Connect with HopeLogix to discuss your digital transformation journey. Schedule consultations, request demos, or get detailed proposals for custom software solutions.',
+  description: 'Connect with HopeLogix to discuss your technology needs—web, mobile, USSD, integrations, and digital transformation. Schedule consultations, request demos, or get detailed proposals for custom solutions.',
 };
 
 export default function ContactPage() {

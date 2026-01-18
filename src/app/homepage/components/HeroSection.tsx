@@ -84,7 +84,7 @@ const HeroSection = ({}: HeroSectionProps) => {
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              Where Enterprise Ambition Meets Rapid Innovation. Building Tomorrow's Competitive Advantages Today.
+              Empowering Tomorrow's Vision Today. Transform your business with advanced technology solutions from HopeLogix: web and mobile app development, USSD, integrations, and digital transformation services.
             </p>
           </div>
 

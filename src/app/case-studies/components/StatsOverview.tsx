@@ -35,3 +35,5 @@ export default function StatsOverview({ stats }: StatsOverviewProps) {
     </div>
   );
 }
+
+// Explore detailed transformation stories showcasing how HopeLogix delivers measurable results through custom web, mobile, USSD, integrations, and digital transformation solutions for businesses across industries.

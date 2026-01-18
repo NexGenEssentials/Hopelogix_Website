@@ -53,14 +53,14 @@ export default function CaseStudiesInteractive() {
     image: "https://img.rocket.new/generatedImages/rocket_gen_img_1e3d82368-1764622326964.png",
     alt: 'Modern hospital interior with digital screens showing patient information and healthcare professionals using tablets',
     challenge: 'Legacy patient management system causing 40% administrative overhead and poor patient satisfaction scores',
-    solution: 'Custom low-code patient portal with real-time appointment scheduling, telemedicine integration, and automated billing',
+    solution: 'Custom patient portal with real-time appointment scheduling, telemedicine integration, and automated billing',
     results: [
     { metric: 'Cost Reduction', value: '45%', icon: 'CurrencyDollarIcon' },
     { metric: 'Time Saved', value: '60%', icon: 'ClockIcon' },
     { metric: 'Patient Satisfaction', value: '92%', icon: 'FaceSmileIcon' }],
 
-    tags: ['Low-Code Platform', 'Healthcare', 'API Integration'],
-    solutionType: 'low-code',
+    tags: ['Healthcare', 'API Integration', 'Web App'],
+    solutionType: 'web-app',
     companySize: 'large'
   },
   {
@@ -125,14 +125,14 @@ export default function CaseStudiesInteractive() {
     image: "https://images.unsplash.com/photo-1662638600507-0846616ec508",
     alt: 'Modern tech office with developers working on multiple monitors showing code and cloud infrastructure dashboards',
     challenge: 'Need to launch MVP in 4 months with limited development resources and tight budget constraints',
-    solution: 'Rapid low-code development with custom integrations, multi-tenant architecture, and automated deployment pipeline',
+    solution: 'Rapid development with custom integrations, multi-tenant architecture, and automated deployment pipeline',
     results: [
     { metric: 'Time to Market', value: '3.5mo', icon: 'RocketLaunchIcon' },
     { metric: 'Development Cost', value: '-55%', icon: 'CurrencyDollarIcon' },
     { metric: 'User Growth', value: '10K+', icon: 'UsersIcon' }],
 
-    tags: ['Low-Code Platform', 'SaaS', 'MVP Development'],
-    solutionType: 'low-code',
+    tags: ['SaaS', 'MVP Development', 'Web App'],
+    solutionType: 'web-app',
     companySize: 'small'
   },
   {
@@ -313,7 +313,7 @@ export default function CaseStudiesInteractive() {
       </section>
 
       {/* Tab Navigation */}
-      <section>
+      {/* <section>
         <div className="flex items-center justify-center space-x-2 bg-surface rounded-xl border border-border p-2">
           <button
             onClick={() => setActiveTab('case-studies')}
@@ -349,15 +349,15 @@ export default function CaseStudiesInteractive() {
             </span>
           </button>
         </div>
-      </section>
+      </section> */}
 
       {/* Case Studies Tab */}
       {activeTab === 'case-studies' &&
       <>
-          <section>
+          {/* <section>
             <FilterBar onFilterChange={handleFilterChange} />
-          </section>
-
+          </section> */}
+{/* 
           <section>
             {filteredCaseStudies.length > 0 ?
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -372,7 +372,7 @@ export default function CaseStudiesInteractive() {
                 <p className="text-muted-foreground">Try adjusting your filters to see more results</p>
               </div>
           }
-          </section>
+          </section> */}
 
           {/* Timeline Section */}
           <section>
@@ -390,14 +390,14 @@ export default function CaseStudiesInteractive() {
       }
 
       {/* Testimonials Tab */}
-      {activeTab === 'testimonials' &&
+      {/* {activeTab === 'testimonials' &&
       <section>
           <div className="text-center space-y-4 mb-12">
             <h2 className="text-3xl md:text-4xl font-headline font-bold text-foreground">
               Client Success Stories
             </h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              Hear directly from the leaders who transformed their businesses with HopeLogix
+              Hear directly from the leaders who transformed their businesses with HopeLogix's technology solutions—web, mobile, USSD, integrations, and digital transformation.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -406,10 +406,10 @@ export default function CaseStudiesInteractive() {
           )}
           </div>
         </section>
-      }
+      } */}
 
       {/* ROI Calculator Tab */}
-      {activeTab === 'calculator' &&
+      {/* {activeTab === 'calculator' &&
       <section>
           <div className="text-center space-y-4 mb-12">
             <h2 className="text-3xl md:text-4xl font-headline font-bold text-foreground">
@@ -423,7 +423,7 @@ export default function CaseStudiesInteractive() {
             <ROICalculator />
           </div>
         </section>
-      }
+      } */}
 
       {/* CTA Section */}
       <section className="bg-gradient-to-br from-accent via-accent to-surface rounded-2xl border border-border p-12 text-center">

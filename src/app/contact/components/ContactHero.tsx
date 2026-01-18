@@ -28,9 +28,8 @@ const ContactHero: React.FC<ContactHeroProps> = ({ onScrollToForm }) => {
 
           {/* Description */}
           <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-            Connect with our team of experts to discuss your digital transformation journey. 
-            Whether you need a strategic consultation, technical demo, or custom solution proposal, 
-            we're here to help you achieve your business goals.
+            Connect with HopeLogix to discuss your technology needs—web, mobile, USSD, integrations, and digital transformation. 
+            Schedule consultations, request demos, or get detailed proposals for custom solutions.
           </p>
 
           {/* CTA Buttons */}

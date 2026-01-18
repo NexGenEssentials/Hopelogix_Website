@@ -22,7 +22,7 @@ const SolutionHero: React.FC<SolutionHeroProps> = ({ title, description, stats }
             {title}
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            {description}
+            Explore our comprehensive suite of technology solutions: web and mobile app development, USSD, systems integration, and digital transformation services designed to accelerate your business growth.
           </p>
         </div>
 

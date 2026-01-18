@@ -4,7 +4,7 @@ import AboutUsInteractive from './components/AboutUsInteractive';
 
 export const metadata: Metadata = {
   title: 'About Us - HopeLogix',
-  description: 'Learn about HopeLogix\'s mission to empower tomorrow\'s vision today. Meet our leadership team, explore our core values, and discover our journey of transforming complex business challenges into elegant, scalable solutions.',
+  description: "Learn about HopeLogix's mission to empower tomorrow's vision today. Meet our leadership team, explore our core values, and discover our journey of transforming complex business challenges into elegant, scalable technology solutions—web, mobile, USSD, integrations, and digital transformation.",
 };
 
 export default function AboutUsPage() {

@@ -20,19 +20,16 @@ const Footer = ({}: FooterProps) => {
       { label: 'Custom Software Development', href: '/custom-solutions' },
       { label: 'Digital Transformation', href: '/custom-solutions' },
       { label: 'API Integration', href: '/custom-solutions' },
-      { label: 'Low-Code Platforms', href: '/custom-solutions' },
     ],
     company: [
       { label: 'About Us', href: '/about-us' },
       { label: 'Case Studies', href: '/case-studies' },
-      { label: 'Resources', href: '/resources' },
+      { label: 'Resources', href: '/custom-solutions' },
       { label: 'Contact', href: '/contact' },
     ],
     resources: [
-      { label: 'Blog', href: '/resources' },
-      { label: 'Whitepapers', href: '/resources' },
-      { label: 'Webinars', href: '/resources' },
-      { label: 'Documentation', href: '/resources' },
+      { label: 'Whitepapers', href: '/custom-solutions' },
+      { label: 'Documentation', href: '/custom-solutions' },
     ],
     legal: [
       { label: 'Privacy Policy', href: '/privacy' },
@@ -69,36 +66,14 @@ const Footer = ({}: FooterProps) => {
           {/* Brand Column */}
           <div className="lg:col-span-2">
             <Link href="/homepage" className="flex items-center space-x-3 mb-6 group">
-              <svg
-                width="40"
-                height="40"
-                viewBox="0 0 40 40"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                className="transition-smooth group-hover:scale-105"
-              >
-                <rect width="40" height="40" rx="8" fill="url(#footer-logo-gradient)" />
-                <path
-                  d="M12 28V12H18C20.2091 12 22 13.7909 22 16C22 18.2091 20.2091 20 18 20H15M15 20V28M15 20H22L28 28"
-                  stroke="white"
-                  strokeWidth="2.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-                <defs>
-                  <linearGradient
-                    id="footer-logo-gradient"
-                    x1="0"
-                    y1="0"
-                    x2="40"
-                    y2="40"
-                    gradientUnits="userSpaceOnUse"
-                  >
-                    <stop stopColor="#0066cc" />
-                    <stop offset="1" stopColor="#00d4ff" />
-                  </linearGradient>
-                </defs>
-              </svg>
+              <img
+                src="/assets/images/image_Dark.png"
+                alt="HopeLogix Logo"
+                width={56}
+                height={56}
+                className="rounded-lg shadow-glow-blue transition-smooth group-hover:scale-105"
+                style={{ objectFit: 'contain', background: 'transparent' }}
+              />
               <span className="text-xl font-headline font-bold text-foreground">
                 HopeLogix
               </span>

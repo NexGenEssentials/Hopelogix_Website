@@ -4,7 +4,7 @@ import CaseStudiesInteractive from './components/CaseStudiesInteractive';
 
 export const metadata: Metadata = {
   title: 'Case Studies - HopeLogix',
-  description: 'Explore detailed transformation stories showcasing how HopeLogix delivers measurable results through custom low-code solutions across healthcare, finance, retail, and manufacturing industries.',
+  description: 'Explore detailed transformation stories showcasing how HopeLogix delivers measurable results through custom web, mobile, USSD, integrations, and digital transformation solutions for businesses across industries.',
 };
 
 export default function CaseStudiesPage() {

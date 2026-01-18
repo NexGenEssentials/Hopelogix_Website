@@ -247,8 +247,7 @@ export default function ResourcesInteractive() {
             Knowledge Hub
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Explore our comprehensive library of resources designed to empower your digital
-            transformation journey with expert insights and proven strategies.
+            Explore our knowledge hub featuring whitepapers, webinars, case studies, and expert insights on web, mobile, USSD, integrations, and digital transformation for businesses.
           </p>
         </div>
 

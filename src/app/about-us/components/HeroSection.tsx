@@ -12,13 +12,14 @@ export default function HeroSection({ title, subtitle, description }: HeroSectio
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <AppImage
-          src="https://images.unsplash.com/photo-1542744095-fcf48d80b0fd"
+          src="https://images.unsplash.com/photo-1519389950473-47ba0277781c"
           alt="Diverse team of professionals collaborating around modern conference table with laptops and digital displays in bright office space"
           fill
           className="object-cover"
           priority />
 
-        <div className="absolute inset-0 bg-gradient-to-b from-background/95 via-background/80 to-background" />
+        {/* Much stronger overlay for maximum text contrast */}
+        <div className="absolute inset-0 bg-black/80" />
       </div>
 
       {/* Content */}
